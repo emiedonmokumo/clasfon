@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&family=Sintony&display=swap');
+
+/* font-family: 'Playfair Display', serif;
+font-family: 
+ */
+.play-fair{
+    font-family: 'Playfair Display';
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.sintony {
+    font-family: 'Sintony', sans-serif;
+}
