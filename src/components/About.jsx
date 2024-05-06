@@ -10,7 +10,7 @@ const About = () =>{
                     <Header />
                     <div className="container mx-auto py-8 text-center text-white">
                         <p className="text-white">Christian Lawyer's Fellowship of Nigeria</p>
-                        <h1 className="text-6xl font-bold play-fair">About us</h1>
+                        <h1 className="text-6xl font-bold play-fair sm:text-4xl">About us</h1>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const About = () =>{
                             <h1 className="text-4xl sm:text-2xl">42</h1>
                             <h4 className="text-2xl sm:text-xl">Years</h4>
                         </div>
-                        <div className="flex flex-col text-center my-5">
+                        <div className="flex flex-col text-center my-3">
                             <i class="bi bi-people text-2xl text-lightRed"></i>
                             <h1 className="text-4xl sm:text-2xl">600+</h1>
                             <h4 className="text-2xl sm:text-xl">Members</h4>
@@ -33,7 +33,7 @@ const About = () =>{
                             <h1 className="text-4xl sm:text-2xl">50+</h1>
                             <h4 className="text-2xl sm:text-xl">Branches</h4>
                         </div>
-                        <div className="flex flex-col text-center my-5">
+                        <div className="flex flex-col text-center my-3">
                             <i className="bi bi-globe text-2xl text-lightRed"></i>
                             <h1 className="text-4xl sm:text-2xl">6</h1>
                             <h4 className="text-2xl sm:text-xl">Regions</h4>
