@@ -10,7 +10,7 @@ const About = () =>{
                     <Header />
                     <div className="container mx-auto py-8 text-center text-white">
                         <p className="text-white">Christian Lawyer's Fellowship of Nigeria</p>
-                        <h1 className="text-6xl font-bold play-fair sm:text-4xl">About us</h1>
+                        <h1 className="text-6xl font-bold play-fair sm:text-3xl">About us</h1>
                     </div>
                 </div>
             </div>
