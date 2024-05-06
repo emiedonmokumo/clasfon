@@ -1,0 +1,80 @@
+[
+    {
+        "name": "ELIJAH DUMPE NABARI",
+        "position": "President",
+        "school": "Rivers State University",
+        "img": "/executives/ELIJAH DUMPE NABARI.jpeg"
+    },
+    {
+        "name": "NWAKILE ONYINYECHI FRANCES",
+        "school": "University of Port-Harcourt",
+        "position": "Vice President",
+        "img": "/executives/NWAKILE ONYINYECHI FRANCES.jpeg"
+    },
+    {
+        "name": "Ayebaikio Ayebmiete Angel",
+        "school": "Niger Delta University",
+        "position": "Assistant General Secretary",
+        "img": "/executives/Ayebaikio Ayebmiete Angel.jpeg"
+    },
+    {
+        "name": "DORIS FYNEFACE",
+        "school": "General Secretary",
+        "position": "Rivers State University",
+        "img": "/executives/DORIS FYNEFACE.jpeg"
+    },
+    {
+        "name": "EZEKIEL, GOD'S GLORY",
+        "school": "University of Uyo",
+        "position": "Prayer Secretary",
+        "img": "/executives/EZEKIEL, GOD'SGLORY.jpeg"
+    },
+    {
+        "name": "GENERAL JESSE JACKSON",
+        "school": "Obafemi Awolowo University",
+        "position": "Ex Officio",
+        "img": "/executives/GENERAL JESSE JACKSON.jpeg"
+    },
+    {
+        "name": "LYDIA .O. OKAFOR",
+        "school": "Rivers State University",
+        "position": "Financial Secretary",
+        "img": "/executives/LYDIA .O. OKAFOR .jpeg"
+    },
+    {
+        "name": "OLUWASEUN ESTHER OJO",
+        "school": "Ekiti State University",
+        "position": "Southwest Regional Coordinator",
+        "img": "/executives/OLUWASEUN ESTHER OJO.jpeg"
+    },
+    {
+        "name": "SAMUEL MOSES OSABONYA",
+        "position": "North Central Regional Coordinator",
+        "img": "/executives/SAMUEL MOSES OSABONYA.jpeg",
+        "school": ""
+    },
+    {
+        "name": "UZODINMA, EMMANUEL .C",
+        "school": "University of Calabar",
+        "position": "Public Secretary",
+        "img": "/executives/UZODINMA, EMMANUEL.jpeg"
+    },
+    {
+        "name": "NATHAN TOSAL",
+        "position": "Northeast Regional Coordinator",
+        "school": "University of Maiduguri",
+        "img": "/executives/NATHAN TOSAL.jpeg"
+    },
+    {
+        "name": "Edwin Cynthia Ngozichukwuka",
+        "school": "Imo State University",
+        "img": "/executives/Edwin Cynthia Ngozichukwuka.jpeg",
+        "position": "South East Regional Coordinator"
+    },
+    {
+        "name": "TEMIDAYO V. OLALEKAN",
+        "school": "Obafemi Awolowo University",
+        "position": "Ex Officio",
+        "img": "/executives/TEMIDAYO V.jpeg"
+    }
+]

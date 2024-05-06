@@ -5,9 +5,9 @@ import '../styles/footer.css';
 
 const Footer = () =>{
     return (
-        <footer className="sintony text-white">
-            <div className="flex flex-row container mx-auto p-5 justify-around md:flex-col sm:flex-col">
-                <div style={{width:'40%'}}>
+        <footer className="sintony text-white sm:text-xs">
+            <div className="flex flex-row container mx-auto p-5 justify-between md:flex-col sm:flex-col">
+                <div className='lg:w-80'>
                     <img src="/assets/logo-3.png" alt="" className="logo" />
                     <p>The Lord hath given me the tongue of the learned,
                         that I should speak a word in season to him that is weary...
