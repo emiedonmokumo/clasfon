@@ -32,7 +32,7 @@ const Header = () =>{
                             <span className="bg-white"></span>
                         </button>
                         <div>
-                        <ul className="flex flex-row md:hidden sm:hidden">
+                        <ul className="flex flex-row md:hidden sm:hidden bg-dark">
                             <li className="lg:mx-2"><Link to="/">Home</Link></li>
                             <li className="lg:mx-2"><Link to="/aboutus">About us</Link></li>
                             <li className="lg:mx-2"><Link to="/getinvolved">Get Involved</Link></li>
@@ -44,13 +44,13 @@ const Header = () =>{
                     </div>
                 </div>
                 {showNav && ( 
-                <ul className="flex flex-row md:flex-col lg:hidden">
-                    <li className="lg:mx-2"><Link to="/">Home</Link></li>
-                    <li className="lg:mx-2"><Link to="/aboutus">About us</Link></li>
-                    <li className="lg:mx-2"><Link to="/getinvolved">Get Involved</Link></li>
-                    <li className="lg:mx-2">Gallery</li>
-                    <li className="lg:mx-2">Contact us</li>
-                    <li className="lg:mx-2">Conference</li>
+                <ul className="sm:text-sm bg-dark m-2 text-white transition duration-700 ease-in-out flex flex-row md:flex-col lg:hidden">
+                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link to="/">Home</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1 my-2"><Link to="/aboutus">About us</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link to="/getinvolved">Get Involved</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1 my-2">Gallery</li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1">Contact us</li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1 my-2">Conference</li>
                 </ul>
                 )}
            </div>

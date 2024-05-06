@@ -50,7 +50,7 @@ const SlideShow = () =>{
 
     return (
         <div className="darkLayer slide-animation lg:h-lvh" style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${slides[currentIndex].bgImage})`, backgroundSize: 'cover'}}>
-            <div className="lg:px-16 py-5 md:px-5">
+            <div className="lg:px-16 py-5 md:px-2">
                 <Header />
             </div>
             <div className="text-center py-12 sm:px-10">
