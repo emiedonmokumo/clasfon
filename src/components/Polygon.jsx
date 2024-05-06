@@ -15,7 +15,7 @@ const Polygon = () =>{
                             <p className='sintony'>We understand and believe that the practice of law is a calling from God. Hence, it our responsibility to work with others to prusue what justice requires in a free and democratic society. We exist as a fellowship because of a collective imagination about the work of a Christian lawyer and a shared sense of responsibility for the communication of the gospel in and through the legal profession</p><br />
                             </div>
                             <div style={{marginTop:'1rem'}}>
-                                <a href="" className='bg-primary light btn-primary' >LEARN MORE</a>
+                                <a href="" className='text-white bg-darkRed p-5 hover:bg-lightRed' >LEARN MORE</a>
                             </div>
                     </div>
                 </div>

@@ -49,21 +49,21 @@ const SlideShow = () =>{
 
 
     return (
-        <div className="darkLayer slide-animation" style={{height: '100vh', backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${slides[currentIndex].bgImage})`,}}>
+        <div className="darkLayer slide-animation lg:h-lvh" style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${slides[currentIndex].bgImage})`, backgroundSize: 'cover'}}>
             <div className="lg:px-16 py-5 md:px-5">
                 <Header />
             </div>
-            <div className="text-center py-12">
+            <div className="text-center py-12 sm:px-10">
                 <div className="flex flex-row justify-center items-center">
                     <img src="/assets/slide-title-border.png" alt="" style={{height: '10px'}}/>
-                    <p className="text-1xl text-white">{slides[currentIndex].subHead}</p>
+                    <p className="text-1xl sm:text-sm sm:px-1 text-white">{slides[currentIndex].subHead}</p>
                     <img src="/assets/slide-title-border.png" alt="" style={{height: '10px'}}/>
                 </div>
                 <div className="play-fair">
-                    <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold">{slides[currentIndex].head}</h1>
+                    <h1 className="lg:text-4xl sm:text-2xl font-bold">{slides[currentIndex].head}</h1>
                 </div>
-                <p className="text-white">Christian Lawyers Fellowship of Nigeria</p>
-                <div className="my-5">
+                <p className="text-white sm:text-sm">Christian Lawyers Fellowship of Nigeria</p>
+                <div className="my-5 sm:text-sm">
                     <Button url={slides[currentIndex].button.url} title={slides[currentIndex].button.title}/>
                 </div>
             </div>

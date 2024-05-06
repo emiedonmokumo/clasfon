@@ -23,7 +23,7 @@ const Footer = () =>{
                             </div>
                             <div className="list-pd list-line">
                                 <li><strong>PHONE</strong></li>
-                                <li>(+234) 909 865 1505</li>
+                                <li>(+234) 810 656 7902</li>
                             </div>
                             <div className="list-pd list-line">
                                 <li>EMAIL</li>

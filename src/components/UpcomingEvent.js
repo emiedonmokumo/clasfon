@@ -30,9 +30,9 @@ const UpcomingEvent = () => {
                         </div>
                         <div className="mx-5">
                             <ul className="flex flex-row list-none">
-                                <li>5:00PM</li>
+                                <li className='font-semibold'>5:00PM</li>
                                 <li className="mx-5"></li>
-                                <li>Fully Virtual</li>
+                                <li className='font-semibold'>Fully Virtual</li>
                             </ul>
                             <h4 className="font-bold my-3">1st Quarter President-In-Council</h4>
                             <p>Periodically, we gather across regions to discuss and plan for the soul and well-being of the fellowship's members.</p>
@@ -46,9 +46,9 @@ const UpcomingEvent = () => {
                         </div>
                         <div className="mx-5">
                             <ul className="flex flex-row list-none">
-                                <li>5:00PM</li>
+                                <li className='font-semibold'>5:00PM</li>
                                 <li className="mx-5"></li>
-                                <li>Fully Virtual</li>
+                                <li className='font-semibold'>Fully Virtual</li>
                             </ul>
                             <h4 className="font-bold my-3">1st Quarter President-In-Council</h4>
                             <p>Periodically, we gather across regions to discuss and plan for the soul and well-being of the fellowship's members.</p>
