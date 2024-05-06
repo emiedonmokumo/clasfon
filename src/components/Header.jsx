@@ -32,7 +32,7 @@ const Header = () =>{
                             <span className="bg-white"></span>
                         </button>
                         <div>
-                        <ul className="flex flex-row md:hidden sm:hidden bg-dark">
+                        <ul className="flex flex-row md:hidden sm:hidden">
                             <li className="lg:mx-2"><Link to="/">Home</Link></li>
                             <li className="lg:mx-2"><Link to="/aboutus">About us</Link></li>
                             <li className="lg:mx-2"><Link to="/getinvolved">Get Involved</Link></li>
