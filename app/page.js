@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
-import Button from "./Button";
-import SlideShow from "./SlideShow";
-import Polygon from "./Polygon";
-import BranchRow from "./BranchRow";
-import UpcomingEvent from "./UpcomingEvent";
-import GetInvolved from "./Home/GetInvolved";
-import Anthem from "./Anthem";
+import Link from "next/link";
+import SlideShow from "@/components/SlideShow";
+// import Button from "./Button";
+// import Polygon from "./Polygon";
+// import BranchRow from "./BranchRow";
+// import UpcomingEvent from "./UpcomingEvent";
+// import GetInvolved from "./Home/GetInvolved";
+// import Anthem from "./Anthem";
 
-const Home = () => {
+export default function page() {
     return (
-        <>
+        <div>
             <SlideShow />
             <div className="bg-milk">
                 <div className="lg:px-15 flex flex-row justify-between mx-8 py-8 items-center md:flex-col">
@@ -21,15 +21,15 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="my-5">
-                        <Button url={'#'} title={'Learn More'} />
+                        <Link href={'#'}>Learn More</Link>
                     </div>
                 </div>
             </div>
-            <Polygon />
+            {/* <Polygon />
             <BranchRow />
             <UpcomingEvent />
             <GetInvolved />
-            <Anthem />
+            <Anthem /> */}
             <div className="container mx-auto p-5">
                 <div className="mb-40">
                     <h1 className="text-2xl md:text-xl font-bold">Communications</h1>
@@ -60,10 +60,8 @@ const Home = () => {
             </div>
             <div className="container mx-auto p-5 flex justify-between items-center sm:flex-col">
                 <h1 className="text-3xl font-semibold sm:text-xl">Become a CLASFON member. <i>Today!</i></h1>
-                <Link to={'#'} className="lg:p-5 md:p-3 bg-darkRed rounded-3xl text-white hover:bg-lightRed lg:font-semibold">Register Now</Link>
+                <Link href={'#'} className="lg:p-5 md:p-3 bg-darkRed rounded-3xl text-white hover:bg-lightRed lg:font-semibold">Register Now</Link>
             </div> 
-        </>
+        </div>
     )
 }
-
-export default Home;

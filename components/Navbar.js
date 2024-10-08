@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+'use client'
+import Link from "next/link";
 import { useState } from "react";
 
-const Header = () =>{
+const Navbar = () =>{
     const [showNav, setShowNav] = useState(false)
     const navFunc = (e) =>{
         setShowNav(!showNav)
@@ -33,9 +34,9 @@ const Header = () =>{
                         </button>
                         <div>
                         <ul className="flex flex-row md:hidden sm:hidden">
-                            <li className="lg:mx-2"><Link to="/">Home</Link></li>
-                            <li className="lg:mx-2"><Link to="/aboutus">About us</Link></li>
-                            <li className="lg:mx-2"><Link to="/getinvolved">Get Involved</Link></li>
+                            <li className="lg:mx-2"><Link href="/">Home</Link></li>
+                            <li className="lg:mx-2"><Link href="/aboutus">About us</Link></li>
+                            <li className="lg:mx-2"><Link href="/getinvolved">Get Involved</Link></li>
                             <li className="lg:mx-2">Gallery</li>
                             <li className="lg:mx-2">Contact us</li>
                             <li className="lg:mx-2">Conference</li>
@@ -45,9 +46,9 @@ const Header = () =>{
                 </div>
                 {showNav && ( 
                 <ul className="sm:text-sm bg-dark m-2 text-white transition duration-700 ease-in-out flex flex-row md:flex-col lg:hidden">
-                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link to="/">Home</Link></li>
-                    <li className="lg:mx-2 hover:bg-darkRed p-1 my-2"><Link to="/aboutus">About us</Link></li>
-                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link to="/getinvolved">Get Involved</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link href="/">Home</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1 my-2"><Link href="/aboutus">About us</Link></li>
+                    <li className="lg:mx-2 hover:bg-darkRed p-1"><Link href="/getinvolved">Get Involved</Link></li>
                     <li className="lg:mx-2 hover:bg-darkRed p-1 my-2">Gallery</li>
                     <li className="lg:mx-2 hover:bg-darkRed p-1">Contact us</li>
                     <li className="lg:mx-2 hover:bg-darkRed p-1 my-2">Conference</li>
@@ -58,4 +59,4 @@ const Header = () =>{
     )
 };
 
-export default Header;
+export default Navbar;
