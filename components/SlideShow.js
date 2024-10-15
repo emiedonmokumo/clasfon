@@ -30,15 +30,15 @@ const SlideShow = () => {
                     <div className="text-center py-12 sm:px-10">
                         <div className="flex flex-row justify-center items-center">
                             <img src="/assets/slide-title-border.png" alt="" className="w-10" />
-                            <p className="text-xl font-bold sm:text-sm sm:px-1 text-white">A NEW LEGAL PROFESSION</p>
+                            <p className="text-xl font-bold sm:text-sm sm:px-1 text-white font-playfair">A NEW LEGAL PROFESSION</p>
                             <img src="/assets/slide-title-border.png" alt="" className="w-10" />
                         </div>
                         <div className="play-fair">
-                            <h1 className="lg:text-4xl sm:text-2xl font-bold">ANCHORED ON CHRIST</h1>
+                            <h1 className="lg:text-4xl sm:text-2xl font-bold font-playfair text-white">ANCHORED ON CHRIST</h1>
                         </div>
-                        <p className="text-white sm:text-sm">Christian Lawyers Fellowship of Nigeria</p>
+                        <p className="text-white text-lg sm:text-sm font-poppins">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
-                            <Link href={'#'}>JOIN US</Link>
+                            <Link href={'#'} className="bg-[#96000C] hover:bg-[#b40a18] text-white py-3 px-5 rounded-3xl font-poppins">JOIN US</Link>
                         </div>
                     </div>
                 </div>
@@ -58,11 +58,11 @@ const SlideShow = () => {
                             <img src="/assets/slide-title-border.png" alt="" className="w-10" />
                         </div>
                         <div className="play-fair">
-                            <h1 className="lg:text-4xl sm:text-2xl font-bold">CLASFON</h1>
+                            <h1 className="lg:text-4xl sm:text-2xl font-extrabold font-playfair text-white">CLASFON</h1>
                         </div>
                         <p className="text-white sm:text-sm">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
-                            <Link href={'#'}>Learn More!</Link>
+                            <Link href={'#'} className="bg-[#96000C] hover:bg-[#b40a18] text-white py-3 px-5 rounded-3xl font-poppins">Learn More!</Link>
                         </div>
                     </div>
                 </div>
@@ -78,15 +78,15 @@ const SlideShow = () => {
                     <div className="text-center py-12 sm:px-10">
                         <div className="flex flex-row justify-center items-center">
                             <img src="/assets/slide-title-border.png" alt="" className="w-10" />
-                            <p className="text-1xl sm:text-sm sm:px-1 text-white">NATIONAL CONFERENCE</p>
+                            <p className="text-1xl sm:text-sm sm:px-1 text-white font-playfair">NATIONAL CONFERENCE</p>
                             <img src="/assets/slide-title-border.png" alt="" className="w-10" />
                         </div>
                         <div className="play-fair">
-                            <h1 className="lg:text-4xl sm:text-2xl font-bold">The Lord our Law Giver</h1>
+                            <h1 className="lg:text-4xl sm:text-2xl font-bold font-playfair text-white">THE LORD OUR LAW GIVER</h1>
                         </div>
                         <p className="text-white sm:text-sm">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
-                            <Link href={'#'}>Learn More!</Link>
+                            <Link href={'#'} className="bg-[#96000C] hover:bg-[#b40a18] text-white py-3 px-5 rounded-3xl font-poppins">Learn More!</Link>
                         </div>
                     </div>
                 </div>

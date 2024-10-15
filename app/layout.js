@@ -1,5 +1,7 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Poppins, Sintony, Playfair_Display } from 'next/font/google'
+import Footer from "@/components/Footer";
 
 // Load Google Fonts
 const poppins = Poppins({
@@ -28,7 +30,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.className} ${playfairDisplay.className} ${sintony.className} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

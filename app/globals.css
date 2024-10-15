@@ -3,25 +3,63 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #96000C;
+  --light: #fff;
+  --dark-grey: #544b40;
+}
+.custom-cloud {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: 80%;
+  transform: translateY(-50%);
+}
+.custom-cloud.right-pos {
+  right: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.polygon {
+  position:absolute;
+  top:224.531px;
+  width: 312px;
+  height: 312px;
+  background-image:url(/assets/prayer.png);
+  transform: translateY(-50%) rotate(45deg);
+  background-color: initial;
+  border: 10px solid white;
+  box-shadow: 0px 0px 60px -10px rgba(139, 139, 139, 0.5);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.polygon-sm {
+  position: absolute;
+  width: 192px;
+  height: 192px;
+  top: 50%;
+  border: 10px solid #FFF;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateY(-50%) rotate(45deg);
+  box-shadow: 0px 0px 60px -10px rgba(139, 139, 139, 0.5);
+}
+.polygon-sm.left-pos {
+  background-image: url(/assets/law.jpg);
+  left: 3vw;
+  top: 45%;
+}
+.polygon-sm.right-pos {
+  background-image: url();
+  right: 3vw;
+  top: 66%;
+}
+.polygon.right-pos {
+  right: -150px;
+}
+.polygon.left-pos {
+  left: -150px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.section-no-border {
+  display: block;
+  background-color: #fff;
+  padding: 70px 0 160px;
 }

@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
+import { FaInstagram } from 'react-icons/fa'
 
 const Navbar = () =>{
     const [showNav, setShowNav] = useState(false)
@@ -8,32 +9,32 @@ const Navbar = () =>{
         setShowNav(!showNav)
     }
     return (
-        <header className="text-white" style={{backgroundColor: "transparent"}}>
-           <div className="container">
-               <div className="flex flex-row justify-end md:hidden">
+        <nav className="py-3">
+           <div className="">
+               <div className="flex flex-row justify-end items-center">
                    <div className="flex flex-row"> 
-                       <p className="font-bold text-white mx-4">TITHE & DONATIONS</p>
-                       <p className="font-bold text-white mx-4">SUBMIT REPORT</p>
+                       <p className="font-bold  mx-4">TITHE & DONATIONS</p>
+                       <p className="font-bold  mx-4">SUBMIT REPORT</p>
                    </div>
-                   <div className="flex flex-row">
+                   <div className="flex flex-row items-center">
                        <p className="mx-3">|</p>
-                       <p><i className="bi bi-instagram mx-2 hover:bg-darkRed text-white p-2" style={{borderRadius: '20px', width:'100%'}}></i></p>
-                       <p><i className="bi bi-twitter mx-2 hover:bg-darkRed text-white p-2" style={{borderRadius: '20px', width:'100%'}}></i></p>                      
-                       <p><i className="bi bi-facebook mx-2 hover:bg-darkRed text-white p-2" style={{borderRadius: '20px', width:'100%'}}></i></p>                   
+                       <p><FaInstagram className="text-darkRed font-light" /></p>
+                       <p><i className="bi bi-twitter mx-2 hover:bg-darkRed  p-2"></i></p>                      
+                       <p><i className="bi bi-facebook mx-2 hover:bg-darkRed  p-2"></i></p>                   
                     </div>
                </div>
-                <div className="flex flex-row justify-between" style={{alignItems: 'base'}}>
+                <div className="flex flex-row justify-between items-center" style={{alignItems: 'base'}}>
                     <div>
                         <img src="/assets/logo-3.png" alt="" style={{width:'55px'}}/>
                     </div>
                     <div className="flex flex-col">
-                        <button className="lg:hidden navBar md:flex md:flex-col" onClick={navFunc}>
-                            <span className="bg-white"></span>
-                            <span className="bg-white"></span>
-                            <span className="bg-white"></span>
+                        <button className="" onClick={navFunc}>
+                            <span className=""></span>
+                            <span className=""></span>
+                            <span className=""></span>
                         </button>
                         <div>
-                        <ul className="flex flex-row md:hidden sm:hidden">
+                        <ul className="flex flex-row">
                             <li className="lg:mx-2"><Link href="/">Home</Link></li>
                             <li className="lg:mx-2"><Link href="/aboutus">About us</Link></li>
                             <li className="lg:mx-2"><Link href="/getinvolved">Get Involved</Link></li>
@@ -45,7 +46,7 @@ const Navbar = () =>{
                     </div>
                 </div>
                 {showNav && ( 
-                <ul className="sm:text-sm bg-dark m-2 text-white transition duration-700 ease-in-out flex flex-row md:flex-col lg:hidden">
+                <ul className="sm:text-sm bg-dark m-2  transition duration-700 ease-in-out flex flex-row md:flex-col lg:hidden">
                     <li className="lg:mx-2 hover:bg-darkRed p-1"><Link href="/">Home</Link></li>
                     <li className="lg:mx-2 hover:bg-darkRed p-1 my-2"><Link href="/aboutus">About us</Link></li>
                     <li className="lg:mx-2 hover:bg-darkRed p-1"><Link href="/getinvolved">Get Involved</Link></li>
@@ -55,7 +56,7 @@ const Navbar = () =>{
                 </ul>
                 )}
            </div>
-        </header>
+        </nav>
     )
 };
 
