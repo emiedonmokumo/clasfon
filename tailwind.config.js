@@ -16,6 +16,11 @@ module.exports = {
         lightRed: '#b40a18',
         grey: '#777'
       },
+      screens: {
+        sm: { 'max': '480px' },
+        md: { 'min': '481px', 'max': '768px' },
+        lg: { 'min': '769px' }
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         playfair: ['Playfair Display', 'serif'],

@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const Footer = () =>{
     return (
-        <footer className="font-poppins font-light text-white sm:text-sm bg-[#212529] p-5">
-            <div className="flex sm:flex-wrap lg:space-x-12">
+        <footer className="font-poppins text-white text-sm bg-[#212529] p-5 lg:pt-8">
+            <div className="flex sm:flex-wrap justify-between lg:px-16 lg:py-5">
                 <div className='w-80'>
                     <img src="/assets/logo-3.png" alt="" className="w-12" />
                     <p>The Lord hath given me the tongue of the learned,
@@ -16,7 +16,7 @@ const Footer = () =>{
                 <div className="flex px-5 space-x-8 justify-between">
                     <div className='space-y-3'>
                         <p>CONTACT INFO</p>
-                        <ul style={{listStyleType:'none'}}>
+                        <ul style={{listStyleType:'none'}} className='flex flex-col space-y-3'>
                             <div className="list-pd list-line">
                                 <li><strong>ADDRESS</strong></li>
                                 <li>Suite 106, Cooper House, 4, Algiers Street, Zone 5 Wuse, Abuja, Nigeria</li>
@@ -39,7 +39,7 @@ const Footer = () =>{
                     </div>
                     <div className='space-y-3'>
                         <p className='space-y-2'>QUICK LINKS</p>
-                        <ul className='list-line'>
+                        <ul className='list-line flex flex-col space-y-2'>
                             <li className='list-pd'><Link href="/aboutus">About us</Link></li>
                             <li className='list-pd'><a href="">Directorates</a></li>
                             <li className='list-pd'><a href="">Branches</a></li>
