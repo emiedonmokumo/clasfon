@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SlideShow from "@/components/SlideShow";
+import { FaGlobe, FaNetworkWired, FaUsers } from "react-icons/fa";
 // import Button from "./Button";
 // import Polygon from "./Polygon";
 // import BranchRow from "./BranchRow";
@@ -38,17 +39,58 @@ export default function page() {
                     </div>
                 </div>
             </div> */}
-            <div>
-                <div className="relative w-32 h-32 bg-center bg-no-repeat bg-contain transform rotate-45 overflow-hidden" style={{ backgroundImage: 'url(/assets/prayer3.jpg)' }}></div>
-                <div className="relative w-32 h-32 bg-center bg-no-repeat bg-contain transform rotate-45 overflow-hidden" style={{ backgroundImage: 'url(/assets/prayer3.jpg)' }}></div>
-            </div>
-            <div className="">
-                <div className="leading-8">
-                    <h2 className='play-fair'>A fellowship of lawyers who believe in Jesus as Savior and Lord</h2>
-                    <p className='sintony'>We understand and believe that the practice of law is a calling from God. Hence, it our responsibility to work with others to prusue what justice requires in a free and democratic society. We exist as a fellowship because of a collective imagination about the work of a Christian lawyer and a shared sense of responsibility for the communication of the gospel in and through the legal profession</p><br />
+            <div className="flex justify-between py-16 my-5 overflow-hidden items-center">
+                <div className="flex-shrink-0">
+                    <div className="relative h-64">
+                        <div className="absolute -left-20 top-0 w-60 h-60 p-2 shadow-2xl rotate-45 overflow-hidden bg-white z-10">
+                            <img src="/assets/prayer.png" />
+                        </div>
+                        <div className="absolute bottom-0 p-2 left-16 w-32 h-32 rotate-45 overflow-hidden z-10">
+                            <img src="assets/law.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <div className="mt-5">
-                    <a href="" className='text-white bg-darkRed p-5 hover:bg-lightRed' >LEARN MORE</a>
+                <div className="text-sm text-center mx-2 px-64 relative z-20">
+                    <div className="">
+                        <div className="leading-8">
+                            <h2 className='font-playfair mb-5 font-bold text-2xl'>A fellowship of lawyers who believe in Jesus as Savior and Lord</h2>
+                            <p className='sintony'>We understand and believe that the practice of law is a calling from God. Hence, it our responsibility to work with others to prusue what justice requires in a free and democratic society. We exist as a fellowship because of a collective imagination about the work of a Christian lawyer and a shared sense of responsibility for the communication of the gospel in and through the legal profession</p><br />
+                        </div>
+                        <div className="mt-5">
+                            <a href="" className='text-white bg-darkRed p-5 hover:bg-lightRed' >LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex-shrink-0 relative">
+                    <div className="relative h-64">
+                        <div className="absolute -right-20 top-0 w-60 h-60 p-2 shadow-2xl rotate-45 overflow-hidden bg-white z-10">
+                            <img src="/assets/prayer.png" />
+                        </div>
+                        <div className="absolute bottom-0 p-2 right-16 w-32 h-32 rotate-45 overflow-hidden z-10">
+                            <img src="/assets/prayer3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container mx-auto bg-dark text-white">
+                <div className="m-2">
+                    <div className="flex flex-row justify-between px-32 space-x-5 items-center">
+                        <div className="flex flex-col justify-center items-center space-y-2">
+                            <FaUsers className="text-3xl text-lightRed" />
+                            <h1 className="text-4xl">600+</h1>
+                            <h4 className="text-2xl">Members</h4>
+                        </div>
+                        <div className="flex flex-col justify-center items-center space-y-2 sm:my-8">
+                            <FaNetworkWired className="text-3xl text-lightRed"/>
+                            <h1 className="text-4xl">50+</h1>
+                            <h4 className="text-2xl">Branches</h4>
+                        </div>
+                        <div className="flex flex-col justify-center items-center space-y-2">
+                            <FaGlobe className="text-3xl text-lightRed" />
+                            <h1 className="text-4xl">6</h1>
+                            <h4 className="text-2xl">Regions</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* <Polygon />

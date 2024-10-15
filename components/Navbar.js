@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
-import { FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const Navbar = () =>{
     const [showNav, setShowNav] = useState(false)
@@ -9,7 +9,7 @@ const Navbar = () =>{
         setShowNav(!showNav)
     }
     return (
-        <nav className="py-3">
+        <nav className="py-2 text-sm">
            <div className="">
                <div className="flex flex-row justify-end items-center">
                    <div className="flex flex-row"> 
@@ -18,9 +18,9 @@ const Navbar = () =>{
                    </div>
                    <div className="flex flex-row items-center">
                        <p className="mx-3">|</p>
-                       <p><FaInstagram className="text-darkRed font-light" /></p>
-                       <p><i className="bi bi-twitter mx-2 hover:bg-darkRed  p-2"></i></p>                      
-                       <p><i className="bi bi-facebook mx-2 hover:bg-darkRed  p-2"></i></p>                   
+                       <Link href={'#'}><FaInstagram className="text-darkRed font-light" /></Link>
+                       <Link href={'#'} className="mx-2"><FaTwitter className="text-darkRed font-light" /></Link>                      
+                       <Link href={'#'}><FaFacebook className="text-darkRed font-light mr-2" /></Link>                   
                     </div>
                </div>
                 <div className="flex flex-row justify-between items-center" style={{alignItems: 'base'}}>
