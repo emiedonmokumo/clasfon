@@ -42,12 +42,12 @@ const page = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto p-5">
-                <h1 className="font-bold text-3xl">CLASFON Executives</h1>
-                <div className="flex flex-wrap justify-center">
+            <div className="p-5">
+                <h1 className="ml-4 font-bold text-3xl mb-3">CLASFON Executives</h1>
+                <div className="flex flex-wrap justify-start">
                     {executives.map((executive, index) => (
-                        <div key={index} className="1/3 m-5">
-                            <img src={executive.img} alt="" className="w-60 max-h-30 object-contain" />
+                        <div key={index} className="m-5 max-w-60">
+                            <img src={executive.img} alt="" className="w-full max-h-30 object-contain" />
                             <h3 className="bg-darkRed text-white p-2 uppercase sm:text-sm">{executive.name}</h3>
                             <h3 className="my-1 bg-milk text-dark p-2 sm:text-sm">{executive.position}</h3>
                             <h3 className="bg-milk text-dark h3 p-2 sm:text-sm">{executive.school}</h3>
