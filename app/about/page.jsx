@@ -43,6 +43,17 @@ const page = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex justify-between my-12 p-10 space-x-16'>
+                <div className='text-justify font-playfair'>
+                    <h2 className='text-3xl font-bold pb-5'>Our History</h2>
+                    <p className='leading-7'>CLASFON had earlier began with 11 Christian Law Students at the Law School in 1979. CLASFON at the Students level officially began in 1991 and is currently in her 32nd anniversary. The CLASFON National Students Annual Conference which began in 1992 has successfully held 30 editions with the 31st edition to be held at the Obafemi Awolowo University, Ile Ife from the 6-10th of September this year (2023).
+                        Christian Students in accredited Law faculties of Nigerian Universities are considered Associate members of the fellowship. For purpose of administrative efficiency among the students, a BYE LAW has been produced to guide the operations of the Students arm of the Fellowship. This Bye law is subject to the provisions of the Constitution of CLASFON.
+                        The National Field Representative (NFR) oversees the Students Ministry of the Fellowship. He does this by collaborating with the National Executive Director (NED) under the supervision of the National Assistant Secretary (ANS) who is mandated by the AGM and CLASFON Constitution to interface with the students on behalf of NEC.
+                        At present, there are about 60 chapters of CLASFON in Nigerian Universities and in all the 7 campuses of the Nigerian Law School.
+                    </p>
+                </div>
+                <img src="/assets/about.png" alt="" />
+            </div>
             <div className="p-5">
                 <h1 className="ml-4 font-bold text-3xl mb-3">CLASFON Executives</h1>
                 <div className="flex flex-wrap justify-start">
