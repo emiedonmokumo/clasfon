@@ -34,7 +34,7 @@ export const metadata = {
     url: "https://clasfon.com.ng",
     image: "https://clasfon.com.ng/assets/logo-3.png"
   },
-  favicon: "/assets/favicon.png"
+  favicon: "favicon.ico"
 };
 
 
