@@ -74,7 +74,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="lg:p-10 my-12">
+            <div className="lg:p-10 sm:p-3 my-12">
                 <div className="flex sm:flex-col">
                     <div className="shadow-xl lg:mr-5">
                         <a href="">
@@ -92,7 +92,7 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="ml-5">
+                    <div className="lg:ml-5 sm:mt-10">
                         <div className="flex">
                             <div className="flex flex-col p-5 text-white bg-lightRed">
                                 <span>Mar.</span>
@@ -132,7 +132,7 @@ export default function page() {
                 </div>
             </div>
             <div className="my-5">
-                <div className="px-12 flex flex-row  text-center sm:flex-col">
+                <div className="lg:px-12 flex flex-row text-center sm:flex-col sm:space-y-4">
                     <div className="p-10 bg-[#22252a] text-white lg:mx-4">
                         <h3 className="text-3xl font-bold">Get Involved</h3>
                         <p className="py-5 text-sm leading-7">We are dedicated to serving Jesus Christ through the practice and study of law, the defense of religious freedom and life, and the provision of legal aid to the needy. Join us and let's accomplish this together.</p>
@@ -145,27 +145,27 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="container mx-auto p-5">
-                <div className="mb-40">
-                    <h1 className="text-2xl md:text-xl font-bold">Communications</h1>
-                    <div className="flex flex-row md:flex-col sm:flex-col">
-                        <div className="relative m-3 md:mb-44">
+            <div className="lg:p-5 sm:p-2 sm:my-12">
+                <div className="lg:mb-40">
+                    <h1 className="text-2xl font-bold">Communications</h1>
+                    <div className="flex flex-row sm:flex-col sm:space-y-32 text-sm sm:mt-2">
+                        <div className="relative lg:m-3">
                             <img src="/assets/blog1.jpg" alt="" className="" />
-                            <div className="mx-5 shadow-2xl bg-white p-5 px-8 absolute top-24 md:p-3">
+                            <div className="lg:mx-5 sm:mx-2 shadow-2xl bg-white p-5 px-8 absolute top-24 leading-8">
                                 <h3 className="text-1xl font-bold sm:text-sm">Presidents' Report August 2021</h3>
                                 <p>CLASFON Presidents' report presented at the annual general meeting of the christain lawyers fellowship of Nigeria at SFI Convention.</p>
                             </div>
                         </div>
-                        <div className="relative m-3 md:mb-44">
+                        <div className="relative lg:m-3">
                             <img src="/assets/blog2.jpg" alt="" className="" />
-                            <div className="mx-5 shadow-2xl bg-white p-5 px-8 absolute top-24">
+                            <div className="lg:mx-5 sm:mx-2 shadow-2xl bg-white p-5 px-8 absolute top-24 leading-8">
                                 <h3 className="text-1xl font-bold sm:text-sm">Communiquè November 2022</h3>
                                 <p>Communiquè issued at the end of the president-in-council meeting of CLASFON held November 10-12, 2022 in Lagos.</p>
                             </div>
                         </div>
-                        <div className="relative m-3 md:mb-16">
+                        <div className="relative lg:m-3">
                             <img src="/assets/blog3.jpg" alt="" className="" />
-                            <div className="mx-5 shadow-2xl bg-white p-5 px-8 absolute top-24">
+                            <div className="lg:mx-5 sm:mx-2 shadow-2xl bg-white p-5 px-8 absolute top-24 leading-8">
                                 <h3 className="text-1xl font-bold sm:text-sm">Presidents' Report August 2022</h3>
                                 <p>CLASFON Presidents' report presented at the annual general meeting of the christain lawyers fellowship of Nigeria.</p>
                             </div>
@@ -173,7 +173,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="container mx-auto p-5 flex justify-between items-center sm:flex-col">
+            <div className="p-5 sm:my-28 flex justify-between items-center sm:flex-col">
                 <h1 className="text-3xl font-semibold sm:text-xl">Become a CLASFON member. <i>Today!</i></h1>
                 <Link href={'#'} className="lg:p-5 md:p-3 bg-darkRed rounded-3xl text-white hover:bg-lightRed lg:font-semibold">Register Now</Link>
             </div>

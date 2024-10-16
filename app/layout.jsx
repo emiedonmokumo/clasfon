@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.className} ${playfairDisplay.className} ${sintony.className} antialiased`}
       >
-        <Navbar />
         {children}
         <Footer />
       </body>
