@@ -49,6 +49,10 @@ const Footer = () =>{
                     </div>
                 </div>
             </div>
+            <hr className='mt-8' />
+            <div className='my-12'>
+                <span>© Copyright 2022. All Rights Reserved.</span>
+            </div>
         </footer>
     )
 }

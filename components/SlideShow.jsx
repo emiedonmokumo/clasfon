@@ -19,6 +19,7 @@ const SlideShow = () => {
             delay: 2000,
             disableOnInteraction: false,
         }} className="mySwiper">
+            <Navbar />
             <SwiperSlide>
                 <div className="h-screen flex justify-center items-center" style={{
                     backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/flag.jpg)`,
