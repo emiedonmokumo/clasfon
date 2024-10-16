@@ -33,8 +33,8 @@ const SlideShow = () => {
                             <p className="text-xl font-bold sm:text-xs sm:px-1 text-white font-playfair">A NEW LEGAL PROFESSION</p>
                             <img src="/assets/slide-title-border.png" alt="" className="w-10 sm:w-5" />
                         </div>
-                        <div className="sm:py-3">
-                            <h1 className="lg:text-4xl sm:text-xl font-bold font-playfair text-white">ANCHORED ON CHRIST</h1>
+                        <div className="sm:py-3 py-2">
+                            <h1 className="lg:text-5xl sm:text-xl font-bold font-playfair text-white">ANCHORED ON CHRIST</h1>
                         </div>
                         <p className="text-white text-lg sm:text-sm font-poppins">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
@@ -57,8 +57,8 @@ const SlideShow = () => {
                             <p className="text-xl sm:text-xs sm:px-1 text-white">Welcome home to</p>
                             <img src="/assets/slide-title-border.png" alt="" className="w-10 sm:w-5" />
                         </div>
-                        <div className="">
-                            <h1 className="lg:text-4xl sm:text-xl font-extrabold font-playfair text-white">CLASFON</h1>
+                        <div className="lg:py-2">
+                            <h1 className="lg:text-8xl sm:text-xl font-extrabold font-playfair text-white">CLASFON</h1>
                         </div>
                         <p className="text-white sm:text-xs">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
@@ -81,8 +81,8 @@ const SlideShow = () => {
                             <p className="text-1xl sm:text-sm sm:px-1 text-white font-playfair">NATIONAL CONFERENCE</p>
                             <img src="/assets/slide-title-border.png" alt="" className="w-10 sm:w-5" />
                         </div>
-                        <div className="">
-                            <h1 className="lg:text-4xl sm:text-xl font-bold font-playfair text-white">THE LORD OUR LAW GIVER</h1>
+                        <div className="py-2">
+                            <h1 className="lg:text-5xl sm:text-xl font-bold font-playfair text-white">THE LORD OUR LAW GIVER</h1>
                         </div>
                         <p className="text-white sm:text-sm">Christian Lawyers Fellowship of Nigeria</p>
                         <div className="my-5 sm:text-sm">
